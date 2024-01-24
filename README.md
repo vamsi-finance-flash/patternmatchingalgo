@@ -1,5 +1,17 @@
 # patternmatchingalgo
 
+# `application` folder contains all the files of the project
+
+## your_project/
+## ├── app.py
+## ├── templates/
+##     ├── index.html
+## │   └── result.html
+## └── static/
+##     └── images/
+##         ├── image1.png
+##         ├── image2.png
+##         └── ...
 
 
 ## How to execute: 
