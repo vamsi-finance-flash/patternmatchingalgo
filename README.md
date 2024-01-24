@@ -2,16 +2,6 @@
 
 # `application` folder contains all the files of the project
 
-your_project/
-├── app.py
-├── templates/
-│   └── result.html
-└── static/
-    └── images/
-        ├── image1.png
-        ├── image2.png
-        └── ...
-
 
 ## How to execute: 
 To run this app, we have to run the `app.py` file in the application folder.
