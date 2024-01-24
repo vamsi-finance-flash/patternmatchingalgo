@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+</head>
+<body>
+    <form action="/process" method="post">
+        <label for="option">Select an option:</label>
+        <select id="option" name="option" required>
+            <option value="SBIN">SBIN</option>
+            <option value="BAJAJHLDNG">BAJAJHLDNG</option>
+            <option value="ADANIENT">ADANIENT</option>
+            <option value="ANDHRAPAP">ANDHRAPAP</option>
+        </select>
+        <br>
+        <br>
+        
+        <label>Choose a time period:</label>
+        <br>
+        <br>
+
+        <input type="radio" id="1hour" name="time_period" value="60">
+        <label for="1hour">1 hour</label>
+
+        <input type="radio" id="2hours" name="time_period" value="120">
+        <label for="2hours">6 hours</label>
+
+        <input type="radio" id="3hours" name="time_period" value="180">
+        <label for="3hours">12 hours</label>
+
+        <input type="radio" id="1day" name="time_period" value="375">
+        <label for="1day">1 day</label>
+        <br>
+        <br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
